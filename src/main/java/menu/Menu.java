@@ -21,7 +21,7 @@ public class Menu {
 
         System.out.println("Seleccione 1 para creacion: ");
         int opcion = Integer.parseInt(scanner.nextLine());
-       // while (opcion != 0) {
+
             switch (opcion) {
                 case 1:
                     System.out.println("CREACION");
@@ -65,7 +65,7 @@ public class Menu {
 
 
 
-
+// while (opcion != 0) {
 
 
 

@@ -15,13 +15,13 @@ public class Ejecucion {
 
 
         //Ejecucion menu
-        /*Menu menu = new Menu();
-        menu.gestionarCliente();*/
+        Menu menu = new Menu();
+        menu.gestionarCliente();
 
 
 
          //Ejecucion cliente
-        Persona cliente1 = new ClienteA("Maria", "Perdomo", "Pasaporte", "414141");
+        Persona cliente1 = new ClienteA("Edinson", "Martinez", "CC", "121212");
 
         System.out.println("============");
         System.out.println("Cliente: ");
@@ -30,11 +30,11 @@ public class Ejecucion {
 
 
         //Ejecucion banco
-       /*System.out.println("========================================");
+       System.out.println("========================================");
         System.out.println("******Cliente registrado con exito******");
-        Banco.registrarClientes("Ramiro", "Guzman", "Cedula extranjeria", "121212");
+        Banco.registrarClientes("Edinson", "Martinez", "CC", "121212");
         System.out.println(Banco.mostrarCliente());
-        System.out.println("========================================");*/
+        System.out.println("========================================");
 
 
     }
